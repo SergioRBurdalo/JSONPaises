@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#000000">
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_gravity="left"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                >
+                <TextView
+                    android:id="@+id/tvNIngles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre(Ingles):"
+                    android:textColor="#FFFFFF"
+                    />
+                <TextView
+                    android:id="@+id/tvNCastellano"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre(Castellano):"
+                    android:textColor="#FFFFFF"
+                    />
+                <TextView
+                    android:id="@+id/tvClave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Clave:"
+                    android:textColor="#FFFFFF"
+                    />
+                <TextView
+                    android:id="@+id/tvCapital"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Capital:"
+                    android:textColor="#FFFFFF"
+                    />
+                <TextView
+                    android:id="@+id/tvContinente"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Continente:"
+                    android:textColor="#FFFFFF"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_gravity="right"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+
+                >
+                <TextView
+                    android:id="@+id/tvPoblacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Población:"
+                    android:textColor="#FFFFFF"
+                    />
+                <TextView
+                    android:id="@+id/tvLatitud"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Latitud:"
+                    android:textColor="#FFFFFF"
+                    />
+                <TextView
+                    android:id="@+id/tvLongitud"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Longitud:"
+                    android:textColor="#FFFFFF"
+                    />
+                <TextView
+                    android:id="@+id/tvFrontera"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paises Fronterizos:"
+                    android:textColor="#FFFFFF"
+                    />
+
+
+            </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
